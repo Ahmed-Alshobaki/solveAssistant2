@@ -9,21 +9,35 @@
     <div>
     <div>
         <div>
-            <form action="div.html">
+            <form action="" method="get">
                <div>
                 <Label>Username</Label>
-                <input type="text" required placeholder="Username">
+                <input type="text" required placeholder="Username" name="Username">
                </div>
                <br>
                 <div>
                     <Label>password</Label>
-                    <input type="password" required placeholder="password">
+                    <input type="password" required placeholder="password" name="password">
                 </div>
                 <br>
                 <label>Email</label>
-                <input type="email" placeholder="Email" required value="Ahmed@zon">
+                <input type="email" placeholder="Email" required value="Ahmed@zon" name="Email">
                 <br>
+                
+                <div>
+                    <label for="">color</label>
+                    <input type="color" name="color" >
+                </div>
+                <div>
+                    <label for="">number</label>
+                    <input type="number" name="number" min="50" max="100" step="5" >
+                </div>
+                <div>
+                    <label for="">range</label>
+                    <input type="range" name="range" min="0" max="10" step="2" >
+                </div>
                 <input type="submit">
+                <input type="reset" name="reset">
             </form>
         </div>
     

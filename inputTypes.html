@@ -9,7 +9,7 @@
     <div>
     <div>
         <div>
-            <form action="" method="get">
+            <form action="" method="get" target="_blank"  novalidate>
                <div>
                 <Label>Username</Label>
                 <input type="text" required placeholder="Username" name="Username" autofocus readonly>
@@ -36,6 +36,46 @@
                     <label for="">range</label>
                     <input type="range" name="range" min="0" max="10" step="2" >
                 </div>
+                <div>
+                    <label>Fild</label>
+                    <input type="file">
+                </div>
+                <hr>
+                <div>
+                    <label>Url</label>
+                    <input type="url">
+                </div>
+                <hr>
+                <div>
+                    <label>Search</label>
+                    <input type="search">
+                </div>
+                <hr>
+                <div>
+                    <label>date</label>
+                    <input type="date">
+                </div>
+                <hr>
+                <div>
+                    <label>time</label>
+                    <input type="time">
+                </div>
+                <div>
+                    <label>Month</label>
+                    <input type="month">
+                </div>
+                <div>
+                    <label for="">List</label>
+                    <input type="li">
+                </div>
+                <input list="IdBooks">
+                <datalist id="IdBooks">
+                <option value="Book1">Book1</option>
+                <option value="Book2">Book2</option>
+                <option value="Book3">Book3</option>
+
+                </datalist>
+                <hr>
                 <input type="submit">
                 <input type="reset" name="reset">
             </form>

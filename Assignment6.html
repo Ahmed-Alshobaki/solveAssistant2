@@ -5,7 +5,29 @@
     <title>Document</title>
 </head>
 <body>
+   <form method="post" target="_blank">
     <label for="search">Search:</label>
+    <br>
         <input type="search" id="search" name="search" placeholder="Enter A Search Word" autofocus><br><br>
+        
+        <label for="uplod">uplod:</label>
+        <br>
+        <input type="file" id="uplod" name="file" >
+        <br>
+        <label id="Url">Url</label>
+        <br>
+        <input type="url" id="Url"  name="url" placeholder="Enter URL" required>
+        <br>
+        <label for="monthField">Month:</label>
+        <br>
+        <input type="month" id="monthField" name="month" value="1982-10">
+        <br>
+        <label for="dateField">Date:</label>
+        <br>
+        <input type="date" id="dateField" name="date" value="1982-10-25">
+        <br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Empty">
+   </form>
 </body>
 </html>
